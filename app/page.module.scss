@@ -6,6 +6,15 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.header {
+  padding: 5px;
+  background: cornflowerblue;
+  > a {
+    color: chocolate;
+    font-weight: bold;
+    font-style: italic;
+  }
+}
 
 .description {
   display: inherit;
